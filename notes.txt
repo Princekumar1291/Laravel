@@ -1,0 +1,9 @@
+1) composer create-project "laravel/laravel:^10.0" example-app
+2) php artisan serve
+
+
+
+2) php artisan make:controller StudentController
+3) php artisan make:view student
+4) php artisan serve
+5) php artisan route:list

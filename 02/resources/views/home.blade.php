@@ -1,3 +1,17 @@
+{{-- SubView  --}}
+@include('common.header',["data"=>"subView data"])
+
+<br>
+{{-- if file does not exist  then no error will come--}}
+@includeIf('common.com',["data"=>"subView data"])
+
+
+
+
+
+
+
+
 <h1>Welcome to home page</h1>
 <h2>Hello, {{$name}}</h2>
 
@@ -24,6 +38,3 @@
 @foreach($users as $user)
   <p>{{$user}}</p>
 @endforeach
-
-
-

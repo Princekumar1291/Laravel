@@ -25,5 +25,19 @@ Route::get("/about/{name?}", function($name = null){
     return view("about", ["name"=>$name]);
 });
 
-
+// Group routes
+Route::prefix("/user")->group(function(){
+    Route::get("/", function(){
+        return view("user.index");
+    });
+    Route::get("/create", function(){
+        return view("user.create");
+    });
+    Route::get("/edit", function(){
+        return view("user.edit");
+    });
+    Route::get("/delete", function(){
+        return view("user.delete");
+    });
+});
 

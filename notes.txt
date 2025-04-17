@@ -10,5 +10,15 @@
 
 
 
+Type of Middleware
+• Global Middleware
+• Route Middleware
+• Group Middleware
+
+6) php artisan make:middleware Admin
+   ->complete the fuction of middleware
+   ->add in the kernal
+   ->add in the route
+
 
 6) php artisan route:list

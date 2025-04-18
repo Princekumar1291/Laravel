@@ -21,4 +21,26 @@ Type of Middleware
    ->add in the route
 
 
-6) php artisan route:list
+7) php artisan route:list
+
+
+8)//database    even no need
+ php artisan migrate 
+   err-SESSION_DRIVER=database
+       php artisan session:table
+       php artisan migrate
+
+
+
+9)model
+  ->php artisan make:model student
+  ->add the name of the table in model
+
+
+10) Inspecting Model
+   ->php artisan model:show Student 
+
+
+
+//http client(call api)
+

@@ -55,4 +55,8 @@ php artisan make:view user
 
 
 
+//make the folder public for use where we store the data
 php artisan storage:link
+
+//localization
+php artisan lang:publish

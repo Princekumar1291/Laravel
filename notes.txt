@@ -50,3 +50,9 @@ Type of Middleware
 php artisan make:model User
 php artisan make:controller UserController --resource
 php artisan make:view user 
+
+
+
+
+
+php artisan storage:link

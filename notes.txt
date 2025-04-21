@@ -6,7 +6,7 @@
 2) php artisan make:controller StudentController
 3) php artisan make:view student
 4) php artisan make:view admin.login
-5)php artisan make:component messageBanner
+5) php artisan make:component messageBanner
 
 
 
@@ -33,6 +33,7 @@ Type of Middleware
 
 
 9)model
+  ->php artisan make:controller student --resource
   ->php artisan make:model student
   ->add the name of the table in model
 
@@ -44,3 +45,8 @@ Type of Middleware
 
 //http client(call api)
 
+
+
+php artisan make:model User
+php artisan make:controller UserController --resource
+php artisan make:view user 

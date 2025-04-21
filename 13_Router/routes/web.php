@@ -18,3 +18,6 @@ Route::get('/user',[UserController::class,'getUser']);
 Route::post('/user',[UserController::class,'postUser']);
 Route::put('/user',[UserController::class,'putUser']);
 Route::delete('/user',[UserController::class,'deleteUser']);
+
+// Route::any('/user',[UserController::class,'any']);
+// Route::match(['put','patch','post','delete'],'/user',[UserController::class,'match']);

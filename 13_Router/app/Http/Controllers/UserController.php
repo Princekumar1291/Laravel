@@ -20,6 +20,11 @@ class UserController extends Controller
     }
     function deleteUser(Request $request){
         return "Called delete";
-        // return $request;
+    }
+    function any(Request $request){
+        return "Called Any";
+    }
+    function match(Request $request){
+        return "Called match";
     }
 }

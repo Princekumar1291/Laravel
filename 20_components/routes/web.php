@@ -5,3 +5,6 @@ use App\Http\Controllers\UserController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('/about','about');
+Route::view('/contact','contact');

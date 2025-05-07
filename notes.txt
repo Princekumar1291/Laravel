@@ -60,3 +60,7 @@ php artisan storage:link
 
 //localization
 php artisan lang:publish
+
+
+//api
+php artisan breeze:install api
